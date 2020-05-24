@@ -9,6 +9,7 @@ FriendshipQuiz is a fun website on which you can check how well your friends rea
 
 ## Screenshots ##
  
+ ![project5](https://user-images.githubusercontent.com/30909880/82755927-7775a080-9df4-11ea-8459-e07e6e20489d.png)
 <img width="944" alt="ss1" src="https://user-images.githubusercontent.com/30909880/82755151-6e360500-9def-11ea-912f-48280c75617c.png">
 <img width="945" alt="ss2" src="https://user-images.githubusercontent.com/30909880/82755220-edc3d400-9def-11ea-918f-48f8424f6bf3.png">
 <img width="947" alt="ss3" src="https://user-images.githubusercontent.com/30909880/82755289-41ceb880-9df0-11ea-906c-7e5784b627e2.png">
