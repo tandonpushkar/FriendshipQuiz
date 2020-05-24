@@ -47,7 +47,7 @@ let CreateQuiz = ({ name }) => {
     setLoading(true);
     event.preventDefault();
     const response = await fetch(
-      `${process.env.BACKEND_URL}/api/users`,
+      `${process.env.REACT_APP_BACKEND_URL}/api/users`,
       {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
         mode: "cors", // no-cors, *cors, same-origin
