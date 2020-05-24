@@ -9,7 +9,6 @@ const EnterName = props => {
 
   let nameSubmit = e => {
     e.preventDefault();
-    console.log(name);
     setquesDisplay(false);
   };
 

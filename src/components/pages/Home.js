@@ -51,7 +51,7 @@ const Home = () => {
             </Link>
             </p>
           </div>
-          <img src={require('../../assets/friends.png')} style={{ width: "15em" }} />
+          <img src={require('../../assets/friends.webp')} style={{ width: "15em" }} />
 
         </div>
 

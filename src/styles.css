@@ -10,32 +10,32 @@
 }
 
 
-.Car{background-image:url(./assets/car.png) ;}
-.Bike{background-image:url(./assets/bike.png) ;
+.Car{background-image:url(./assets/car.webp) ;}
+.Bike{background-image:url(./assets/bike.webp) ;
 background-position: center;
 }
 
 
-.Rose{background-image:url(./assets/rose.png);}
-.Lily{background-image:url(./assets/lily.jpeg);}
+.Rose{background-image:url(./assets/rose.webp);}
+.Lily{background-image:url(./assets/lily.webp);}
 
-.WTF{background-image:url(./assets/wtf.jpeg);}
-.LOL{background-image:url(./assets/lol.jpeg);}
+.WTF{background-image:url(./assets/wtf.webp);}
+.LOL{background-image:url(./assets/lol.webp);}
 
-.Summer{background-image:url(./assets/Summer.jpeg);}
-.Winter{background-image:url(./assets/Winter.jpeg);}
+.Summer{background-image:url(./assets/Summer.webp);}
+.Winter{background-image:url(./assets/Winter.webp);}
 
-.Soft{background-image:url(./assets/softdrink.jpeg);}
-.Hard{background-image:url(./assets/harddrink.jpeg);}
+.Soft{background-image:url(./assets/softdrink.webp);}
+.Hard{background-image:url(./assets/harddrink.webp);}
 
-.Giraffe{background-image:url(./assets/giraff.jpeg);}
-.Rabbit{background-image:url(./assets/rabbit.jpeg);}
+.Giraffe{background-image:url(./assets/giraff.webp);}
+.Rabbit{background-image:url(./assets/rabbit.webp);}
 
-.Hit{background-image:url(./assets/hitaclub.jpeg);}
-.Movie{background-image:url(./assets/moviewithfriends.jpeg);}
+.Hit{background-image:url(./assets/hitaclub.webp);}
+.Movie{background-image:url(./assets/moviewithfriends.webp);}
 
-.Tea{background-image:url(./assets/tea.png);}
-.Coffee{background-image:url(./assets/coffee.png);}
+.Tea{background-image:url(./assets/tea.webp);}
+.Coffee{background-image:url(./assets/coffee.webp);}
 
 
 .cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{opacity: .9;}

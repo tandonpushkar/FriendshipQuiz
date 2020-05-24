@@ -5,8 +5,6 @@ const SolveQuiz = props => {
   const [n, setn] = useState(1);
   const [UserData, setUserData] = useState([]);
 
-  console.log(props);
-
   useEffect(() => {
     let id = props.match.params.id;
     let urlLink = `${process.env.REACT_APP_BACKEND_URL}/api/users/${id}`;

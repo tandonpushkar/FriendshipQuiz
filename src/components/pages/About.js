@@ -24,11 +24,11 @@ const About = () => {
         style={{
           height: "600px",
           display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
+
         }}
         ref={myRef}>
         <div class="container-fluid w-75 text-light  mx-auto">
+          <img src={require('../../assets/friends2.webp')} style={{ width: "15em" }} />
           <h2 class="card-title font-weight-bold text-center" style={{ color: "#e2f3f5" }}>
             About this Application
           </h2>

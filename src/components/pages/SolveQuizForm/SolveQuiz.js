@@ -100,7 +100,6 @@ let SolveQuiz = ({ name, sendername, SenderAnswer, id }) => {
   const [Result, setResult] = useState("");
 
   let onInputChange = e => {
-    console.log(e.target.checked);
     const result = QuestionData.map(ques => {
       if (ques.id !== e.target.name) return ques;
       return {
@@ -145,7 +144,6 @@ let SolveQuiz = ({ name, sendername, SenderAnswer, id }) => {
     const message = await response.json();
     setLoading(false);
     setChangeButton(true);
-    console.log(message);
   };
 
   return (

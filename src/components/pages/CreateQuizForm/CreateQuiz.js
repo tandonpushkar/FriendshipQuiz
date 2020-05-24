@@ -26,7 +26,6 @@ let CreateQuiz = ({ name }) => {
   };
 
   let onInputChange = e => {
-    console.log(e.target.checked);
     const result = QuestionData.map(ques => {
       if (ques.id !== e.target.name) return ques;
       return {
