@@ -67,8 +67,8 @@ let CreateQuiz = ({ name }) => {
     );
     const userid = await response.json();
     setuserid(userid);
-    const resultlink = `https://pvv2u.csb.app/result/${userid}`;
-    const quizlink = `https://pvv2u.csb.app/quiz/${userid}`;
+    const resultlink = `${process.env.REACT_APP_BASE_URL}/result/${userid}`;
+    const quizlink = `${process.env.REACT_APP_BASE_URL}/quiz/${userid}`;
     setLoading(false);
     setChangeButton(true);
     setQuizLink(quizlink);

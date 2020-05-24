@@ -9,7 +9,7 @@ const SolveQuiz = props => {
 
   useEffect(() => {
     let id = props.match.params.id;
-    let urlLink = `https://evening-taiga-99791.herokuapp.com/api/users/${id}`;
+    let urlLink = `${process.env.REACT_APP_BACKEND_URL}/api/users/${id}`;
 
     let fetchUser = async url => {
       const res = await fetch(url);

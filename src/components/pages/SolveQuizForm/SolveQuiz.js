@@ -124,7 +124,7 @@ let SolveQuiz = ({ name, sendername, SenderAnswer, id }) => {
     setResult(result);
 
     const response = await fetch(
-      `https://evening-taiga-99791.herokuapp.com/api/users/result/${id}`,
+      `${process.env.REACT_APP_BACKEND_URL}/api/users/result/${id}`,
       {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
         mode: "cors", // no-cors, *cors, same-origin
