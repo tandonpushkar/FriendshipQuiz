@@ -47,7 +47,7 @@ let CreateQuiz = ({ name }) => {
     setLoading(true);
     event.preventDefault();
     const response = await fetch(
-      "https://evening-taiga-99791.herokuapp.com/api/users",
+      `${process.env.BACKEND_URL}/api/users`,
       {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
         mode: "cors", // no-cors, *cors, same-origin
